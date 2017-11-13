@@ -1,0 +1,38 @@
+{
+	"color_inactive_tabs": true,
+	"color_scheme": "Packages/User/SublimeLinter/Dracula (SL).tmTheme",
+	"dictionary": "Packages/Language - English/en_US.dic",
+	"ensure_newline_at_eof_on_save": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		"node_modules"
+	],
+	"font_face": "Menlo",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"FTPSync",
+		"JavaScript",
+		"Markdown",
+		"SublimeCodeIntel",
+		"SyncedSidebarBg",
+		"tern_for_sublime",
+		"Vintage"
+	],
+	"rulers":
+	[
+		100
+	],
+	"sidebar_size_14": true,
+	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "Afterglow.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

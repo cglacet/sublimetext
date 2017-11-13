@@ -1,0 +1,7 @@
+[
+	{ "keys": ["super+alt+ctrl+up"], "command": "goto_python_definition"},
+	{ "keys": ["super+alt+ctrl+left"], "command": "back_to_python_definition"},
+    { "keys": ["super+alt+i"], "command": "import_js", "args": { "command": "fix" } },
+    { "keys": ["super+alt+j"], "command": "import_js", "args": { "command": "word" } },
+    { "keys": ["super+alt+g"], "command": "import_js", "args": { "command": "goto" } }
+]

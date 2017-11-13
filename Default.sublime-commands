@@ -1,0 +1,46 @@
+[
+    {
+        "caption": "Chris: JSON remove useless quotes",
+        "command": "reg_replace",
+        "args": {"replacements": ["json_remove_useless_quotes"]}
+    },
+    {
+        "caption": "Chris: JSON use only simple quotes",
+		"command": "run_multiple_commands",
+		"args": {
+			"commands": [
+				{
+					"command": "reg_replace",
+					"args": {"replacements": ["json_use_only_simple_quotes_keys"]}
+				},{
+					"command": "reg_replace",
+					"args": {"replacements": ["json_use_only_simple_quotes_values"]}
+				}
+			]
+		}
+	},
+	{
+        "caption": "Chris: uniformized quotes and JSON",
+		"command": "run_multiple_commands",
+		"args": {
+			"commands": [
+				{
+					"command": "reg_replace",
+        			"args": {"replacements": ["json_remove_useless_quotes"]}
+				},
+				{
+					"command": "reg_replace",
+					"args": {"replacements": ["json_use_only_simple_quotes_keys"]}
+				},
+				{
+					"command": "reg_replace",
+					"args": {"replacements": ["json_use_only_simple_quotes_values"]}
+				},
+                {
+                    "command": "reg_replace",
+                    "args": {"replacements": ["use_only_simple_quotes"]}
+                }
+			]
+		}
+	}
+]

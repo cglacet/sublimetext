@@ -1,0 +1,11 @@
+{
+    "enable_autoreload": true,
+    "enabled_extensions": [
+        "extra",
+        "codehilite(guess_lang=False,pygments_style=markdown,linenums=true)"
+    ],
+    "strip_yaml_front_matter": true,
+    "enable_mathjax": false,
+    "css": ["default","/usr/local/var/www/markdown.css"],
+    "allow_css_overrides": true,
+}
